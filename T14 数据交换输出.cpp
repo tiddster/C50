@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
-	int p,l[100],a[100][100],judge_num,i,j,t,max,k;
-	judge_num = 1;
+	int p,l[100],a[100][100],i,t,max;
 	for(p=1;;p++){
 		scanf("%d",&l[p]);
 		if(l[p]==0)
